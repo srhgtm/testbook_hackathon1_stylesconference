@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Venue</title>
+    <style>
+        *{
+    margin: 0;
+padding: 0;
+
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+body{
+background-color: lightblue;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(17, 122, 126);
+justify-content: space-around;
+align-items: center;
+padding: 20px 5px;
+box-shadow: 2px 2px 5px #ccc;
+}
+
+
+
+.lefttop{
+    padding-left: 5%;
+text-transform: uppercase;
+font-weight: 800;
+cursor: pointer;
+    
+}
+.lefttop h1:hover{
+    color:darkgray;
+opacity: 0.9;
+transition: 0.7s;
+}
+.righttop{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.list a{
+    margin-right: 20px;
+font-size: 1.1rem;
+text-decoration:none;
+color:white;
+}
+.list a:hover{
+    color:darkgray;
+opacity: 0.9;
+transition: 0.7s;
+}
+
+.venue{
+    color: darkgrey;
+    margin: 5%;
+}
+.venue h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.venue h2{
+    text-align: center;
+    font-size: x-large;
+}
+    </style>
+</head>
+<body>
+      <!-- navbar starts here -->
+      <section class="container">
+        <div class="lefttop"> 
+            <h1>STYLES</h1>
+            <h1>CONFERENCE</h1>
+
+        </div>
+        <div class="righttop">
+            <h2>August 24-26th-Chicago,IL</h2>
+            <ul class="list">
+                <li><a href="hackthon.html" target="_self">HOME</a></li>
+                <li><a href="speakers.html" target="_self">SPEAKERS</a></li>
+                <li><a href="schedule.html" target="_self">SCHEDULE</a></li>
+                <li><a href="venue.html" target="_self">VENUE</a></li>
+                <li><a href="registration.html" target="_self">REGISTER</a></li>
+            </ul>
+
+        </div>
+
+    </section>
+        <!-- navbar ends here -->
+        <div class="venue">
+            <h1>Venue</h1>
+            <h2>The conference is held at The Chicago Theatre,<br>a beautiful historical landmark. The conference <br>hotel,Four seasons, is a short walk away down <br> state street.</h2>
+        </div>
+
+</body>
+</html>

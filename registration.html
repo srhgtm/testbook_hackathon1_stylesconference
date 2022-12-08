@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        *{
+    margin: 0;
+padding: 0;
+
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+body{
+background-color: lightblue;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(17, 122, 126);
+justify-content: space-around;
+align-items: center;
+padding: 20px 5px;
+box-shadow: 2px 2px 5px #ccc;
+}
+
+
+
+.lefttop{
+    padding-left: 5%;
+text-transform: uppercase;
+font-weight: 800;
+cursor: pointer;
+    
+}
+.lefttop h1:hover{
+    color:darkgray;
+opacity: 0.9;
+transition: 0.7s;
+}
+.righttop{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.list a{
+    margin-right: 20px;
+font-size: 1.1rem;
+text-decoration:none;
+color:white;
+}
+.list a:hover{
+    color:darkgray;
+opacity: 0.9;
+transition: 0.7s;
+}
+
+.registration{
+    color: darkgrey;
+    margin: 5%;
+}
+.registration h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.registration h2{
+    text-align: center;
+    font-size: x-large;
+}
+
+.form{
+    color: brown;
+    font-size: large;
+    border: 2px solid lightgray;
+    box-sizing: border-box;
+    box-shadow: 2px 5px solid;
+    padding: 5%;
+}
+.form text{
+    border-radius: 50px solid grey;
+
+}
+.submit{
+    background-color: orchid;
+    padding: 0.8%;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.submit :hover{
+    opacity: 0.7s;
+    color: #ccc;
+    
+}
+
+
+    </style>
+</head>
+<body>
+     <!-- navbar starts here -->
+     <section class="container">
+        <div class="lefttop"> 
+            <h1>STYLES</h1>
+            <h1>CONFERENCE</h1>
+
+        </div>
+        <div class="righttop">
+            <h2>August 24-26th-Chicago,IL</h2>
+            <ul class="list">
+                <li><a href="hackthon.html" target="_self">HOME</a></li>
+                <li><a href="speakers.html" target="_self">SPEAKERS</a></li>
+                <li><a href="schedule.html" target="_self">SCHEDULE</a></li>
+                <li><a href="venue.html" target="_self">VENUE</a></li>
+                <li><a href="registration.html" target="_self">REGISTER</a></li>
+            </ul>
+
+        </div>
+
+    </section>
+        <!-- navbar ends here -->
+
+        <!-- registration form starts here -->
+        <div class="registration">
+            <h1>Register</h1>
+            <h2>Every year we aim to have an unbelievable time, and this year we'd love it for you to join us. Conference passes only cost $99, one of the best values you'll find.</h2>
+        </div>
+
+        <div class="form">
+            <p class="name">Name</p>
+            <input type="text" value="full name" class="text">
+           <br><br>
+            <p class="name">Email</p>
+            <input type="text" value="Email address" class="text">
+           <br><br>
+            <p class="name">Number of Passes</p>
+            <select name="passes" id="number">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+
+            </select>
+            <br><br>
+            <textarea name="comments" id="comment" cols="40" rows="5">write here</textarea>
+            <br><br>
+            <button class="submit">PURCHASE</button>
+        </div>
+     
+    
+</body>
+</html>

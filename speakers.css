@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+padding: 0;
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+body{
+background-color: lightblue;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    background-color: rgb(17, 122, 126);
+justify-content: space-around;
+align-items: center;
+padding: 20px 5px;
+
+}
+
+
+
+.lefttop{
+    padding-left: 5%%;
+text-transform: uppercase;
+font-weight: 800;
+cursor: pointer;
+    
+}
+.lefttop h1:hover{
+    color:darkgray;
+opacity: 0.9;
+transition: 0.7s;
+}
+.righttop{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+.list a{
+    margin-right: 20px;
+font-size: 1.1rem;
+text-decoration:none;
+color:white;
+}
+.list a:hover{
+    color:darkgray;
+opacity: 0.9;
+transition: 0.7s;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    color:darkgray;
+    margin: 1cm;
+    justify-content: center;
+}
+.topup{
+    justify-content: center;
+    padding-left: 40%;
+    font-size: larger;
+    
+
+}
+.topdown{
+    justify-content: center;
+    padding-left: 10%;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+}
+.bottomleft{
+    color: grey;
+    float: left;
+}
+.one{
+    display: flex;
+    max-width: 70%;
+    text-align: justify;
+}
+.two{
+    display: flex;
+    max-width: 70%;
+    text-align: justify;
+
+}
+.three{
+    display: flex;
+    max-width: 70%;
+    text-align: justify;
+
+}
+.four{
+    display: flex;
+    max-width: 70%;
+    text-align: justify;
+
+}
+img{
+    margin: 0%;
+    padding: 5%;
+}
+.bottomright > p{
+    margin: 0%;
+    padding-left: 50px;
+    padding-top:0%;
+}
+
+.bottomnav{
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    background-color: rgb(17, 122, 126);
+    padding: 3%;
+}
+.bottomleftnav{
+    display: flex;
+    width: 100;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+    text-transform: capitalize;
+}
+.bottomrightnav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.list2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+    cursor: pointer;
+    font-size: smaller;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+.list2 a{
+    text-decoration: none;
+    color: white;
+
+}
+li{
+    display: flex;
+    padding: 2%;
+
+}
